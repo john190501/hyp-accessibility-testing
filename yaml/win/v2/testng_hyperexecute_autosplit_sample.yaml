@@ -18,4 +18,4 @@ framework:
 retryOnFailure: true
 maxRetries: 1
 
-jobLabel: [selenium-testng, win, v2, autosplit]
+jobLabel: [selenium-testng, win, accessibility]
