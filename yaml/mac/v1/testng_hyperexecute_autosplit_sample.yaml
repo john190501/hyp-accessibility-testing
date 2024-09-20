@@ -1,0 +1,21 @@
+---
+version: 0.1
+runson: mac
+
+autosplit: true
+concurrency: 4
+
+pre:
+  - mvn dependency:resolve
+
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: grep 'test name' xml/testng_mac.xml | awk '{print$2}' | sed 's/name=//g' | sed 's/>//g'
+
+testRunnerCommand: mvn test -Dplatname=mac dependency:resolve -DselectedTests=$test
+
+retryOnFailure: true
+maxRetries: 1
+
+jobLabel: [selenium-testng, mac, v1, autosplit]
