@@ -1,5 +1,4 @@
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,14 +10,14 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class Test2
+public class RCA
 {
     WebDriver driver = null;
     public static String status = "passed";
-    String username = Test1.username;
-    String access_key = Test1.access_key;
+    String username = Accessibility.username;
+    String access_key = Accessibility.access_key;
 
-    String testURL = "https://lambdatest.github.io/sample-todo-app/"; 
+    String testURL = "https://lambdatest.github.io/sample-todo-app/";
     String testURLTitle = "Sample page - lambdatest.com";
 
     @BeforeMethod
@@ -28,8 +27,8 @@ public class Test2
         String platformName = System.getenv("HYPEREXECUTE_PLATFORM") != null ? System.getenv("HYPEREXECUTE_PLATFORM") : platform;
         
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("build", "[HyperExecute - 2] Demonstration of the TestNG Framework");
-        capabilities.setCapability("name", "[HyperExecute - 2] Demonstration of the TestNG Framework");
+        capabilities.setCapability("build", "[HyperExecute - 3] Demonstration of the TestNG Framework");
+        capabilities.setCapability("name", "[HyperExecute - 3] Demonstration of the TestNG Framework");
 
         capabilities.setCapability("platform", System.getenv("HYPEREXECUTE_PLATFORM"));
         capabilities.setCapability("browserName", browser);
@@ -39,7 +38,7 @@ public class Test2
         capabilities.setCapability("network",true);
         capabilities.setCapability("console",true);
         capabilities.setCapability("visual",true);
-
+        
         capabilities.setCapability("accessibility", true); // Enable accessibility testing
         capabilities.setCapability("accessibility.wcagVersion", "wcag21a"); // Specify WCAG version (e.g., WCAG 2.1 Level A)
         capabilities.setCapability("accessibility.bestPractice", false); // Exclude best practice issues from results
@@ -57,9 +56,9 @@ public class Test2
     }
 
     @Test(description="To Do App on React App")
-    public void test2_element_addition_1() throws InterruptedException
+    public void test3_element_addition_1() throws InterruptedException
     {   ExtentReports extent = new ExtentReports("target/surefire-reports/html/extentReport.html");
-        ExtentTest test1 = extent.startTest("demo application test 2-1", "To Do App test 1");
+        ExtentTest test1 = extent.startTest("demo application test 3-1", "To Do App test 1");
 
         driver.get(testURL);
         Thread.sleep(5000);
@@ -67,7 +66,8 @@ public class Test2
         test1.log(LogStatus.PASS, "URL is opened");
         WebDriverWait wait = new WebDriverWait(driver, 5);
         test1.log(LogStatus.PASS, "Wait created");
-        By textField = By.id("sampletodotext");
+
+        By textField = By.id("sampletodotextfailed");
 
         WebElement addText = driver.findElement(textField);
 

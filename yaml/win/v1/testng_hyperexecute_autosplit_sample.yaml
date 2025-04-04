@@ -3,7 +3,7 @@ version: 0.1
 runson: win
 
 autosplit: true
-concurrency: 4
+concurrency: 5
 
 pre:
   - mvn dependency:resolve
@@ -18,4 +18,7 @@ testRunnerCommand: mvn test `-Dplatname=win `-Dmaven.repo.local=./.m2 dependency
 retryOnFailure: true
 maxRetries: 1
 
-jobLabel: [selenium-testng, win, v1, autosplit]
+jobLabel: [selenium-testng, autoheal, accessibility, background,]
+
+background:
+  - npx static-server

@@ -11,7 +11,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class Test1
+public class Accessibility
 {
     RemoteWebDriver driver = null;
     public static String status = "passed";
@@ -38,7 +38,7 @@ public class Test1
         capabilities.setCapability("network",true);
         capabilities.setCapability("console",true);
         capabilities.setCapability("visual",true);
-
+        capabilities.setCapability("autoHeal", true);
         capabilities.setCapability("accessibility", true); // Enable accessibility testing
         capabilities.setCapability("accessibility.wcagVersion", "wcag21a"); // Specify WCAG version (e.g., WCAG 2.1 Level A)
         capabilities.setCapability("accessibility.bestPractice", false); // Exclude best practice issues from results

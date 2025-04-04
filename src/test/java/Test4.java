@@ -14,8 +14,8 @@ public class Test4
 {
     WebDriver driver = null;
     public static String status = "passed";
-    String username = Test1.username;
-    String access_key = Test1.access_key;
+    String username = Accessibility.username;
+    String access_key = Accessibility.access_key;
 
     String testURL = "https://lambdatest.github.io/sample-todo-app/";
     String testURLTitle = "Sample page - lambdatest.com";

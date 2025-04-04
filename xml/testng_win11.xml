@@ -12,7 +12,7 @@
 			<parameter name="platform" value="Windows 11"/>
 			<parameter name="resolution" value="1024x768"/>
 			<classes>
-				<class name="Test1" />
+				<class name="Accessibility" />
 			</classes>
 	</test>
 	<test name="Test_2">

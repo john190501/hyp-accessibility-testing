@@ -6,34 +6,358 @@
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 	</listeners>
 
-	<test name="Test_1">
+	<test name="Accessibility">
 			<parameter name="browser" value="Chrome"/>
 			<parameter name="version" value="latest"/>
 			<parameter name="platform" value="Windows 10"/>
 			<parameter name="resolution" value="1024x768"/>
 			<classes>
-				<class name="Test1" />
+				<class name="Accessibility" />
 			</classes>
 	</test>
-	<test name="Test_2">
+	<test name="AutoHeal">
 			<parameter name="browser" value="Firefox"/>
 			<parameter name="version" value="latest"/>
 			<parameter name="platform" value="Windows 10"/>
 			<parameter name="resolution" value="1024x768"/>
 			<classes>
-				<class name="Test2" />
+				<class name="AutoHeal" />
 			</classes>
 	</test>
-	<test name="Test_3">
+	<test name="RCA">
 			<parameter name="browser" value="MicrosoftEdge"/>
 			<parameter name="version" value="latest"/>
 			<parameter name="platform" value="Windows 10"/>
 			<parameter name="resolution" value="1024x768"/>
 			<classes>
-				<class name="Test3" />
+				<class name="RCA" />
 			</classes>
 	</test>
 	<test name="Test_4">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_5">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_6">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_7">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_8">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_9">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_10">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_11">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_12">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_13">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_14">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_15">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_16">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_17">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_18">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_19">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_20">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_21">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_22">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_23">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+<test name="Test_24">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_25">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+		<test name="Test_26">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+		<test name="Test_27">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+		<test name="Test_28">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+		<test name="Test_29">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+		<test name="Test_30">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+		<test name="Test_31">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_32">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_33">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_34">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_35">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_36">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_37">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_38">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_39">
+			<parameter name="browser" value="MicrosoftEdge"/>
+			<parameter name="version" value="latest"/>
+			<parameter name="platform" value="Windows 10"/>
+			<parameter name="resolution" value="1024x768"/>
+			<classes>
+				<class name="Test4" />
+			</classes>
+	</test>
+	<test name="Test_40">
 			<parameter name="browser" value="MicrosoftEdge"/>
 			<parameter name="version" value="latest"/>
 			<parameter name="platform" value="Windows 10"/>
